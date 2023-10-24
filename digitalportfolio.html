@@ -1,0 +1,109 @@
+ <html>
+    <head>
+        <meta charset="utf-8">
+        <title>user icon</title>
+        <link rel="stylesheet" href="style.css">
+        <style type="text/css">
+
+            .user{
+                width:100px;
+                height:100px;
+                background-color:black;
+                border: 2pxsolid:bisque;
+                border-radius:50%;
+                position:relative;
+                overflow: hidden;
+                box-sizing:border-box;            
+            }
+            /*head*/
+            .user::before{
+                content:'';
+                width:32px;
+                height:32px;
+                background-color:whitesmoke;
+                border-radius:50%;
+                position:absolute;
+                left:calc(50% - 15px);
+                top: 24px;
+            }
+            /*body*/
+            .user::after{
+                content:'';
+                width:65px;
+                height:50px;
+                background-color:rgb(178, 218, 236);
+                border-radius:50%;
+                position:absolute;
+                left:calc(50% - 32px);
+                top:63px;
+            }
+           
+            h1 {text-align: center; 
+                
+
+            }
+            h2{ text-align: center;
+
+            }
+            dl{
+                text-align: center;
+            text-rendering: auto;
+            }
+    
+    
+
+            
+            </style>
+        </head>
+        
+        <body>
+            <div class="user"></div>
+
+            <div class="hero">
+                <nav>
+                <ul> 
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about me.html">About me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">contanct</a></li>
+                </ul>
+                <hr>
+                <h1>Hii ! Everone i'm Bhuvaneshwari.<br>
+                    Thankyou For Spend A Time For Me.<br>
+                </h1><br><br>
+                <h2>My  Self</h2>
+                <ul>
+                    <li>I am Bhuvaneshwari from TIRUPUR </li>
+                    <li>I am studied in chikkana govt  arts college from the bharathiyar univercity.<br> i'am attendind this college because it has always been somthing<br>
+                        i've been fascinated with or was looking forword to since.There are five members in my family </li>
+                    
+                     </ul>
+                <br><br>
+                <h1>
+                    SKILLS
+                </h1>
+                <ul>
+                    <li>
+                       Experience in  HTML</li>
+                       <li>Intermediate in CSS</li>
+                       <li>Begginer in PYTHON</li>
+                </ul>
+                <br><br>
+                <h1>CONTACT</h1>
+                <dl>
+                 <dt>Location</dt>
+                 <dd>Tamilnadu,India</dd>
+                 <dt>@email</dt>
+                 <dd>
+                     <a href="vishwanathanbhuvaneshwari@gmail.com" style="color:blueviolet">vishwanathanbhuvaneshwari@gmail.com</a>
+                 </dd><br>
+                 <dt>Phone:</dt>
+                 <dd>+91 ********13</dd>
+                </dl>
+             
+        
+            </div>
+            </body>
+
+    </head>
+</html>
